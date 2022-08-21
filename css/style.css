@@ -1,0 +1,72 @@
+@font-face {
+    font-family: "Engine";
+    src: url(../fonts/LEngineer-Regular.otf);}
+
+@font-face {
+    font-family: "OpenSans";
+    src: url(../fonts/NotoSansDisplay-VariableFont_wdth\,wght.ttf);
+}
+
+body{background-color: #FADEC7;}
+
+header{background-color: #A48B76;
+    position: static;}
+
+.main_photo{display: flex;
+    justify-content: center;
+    width: 400px;}
+
+h1{font-family: "Engine";
+    font-weight: lighter;
+    font-size: 96px;
+    color: #503118;
+    display: flex;
+    justify-content: center;}
+
+nav{display: flex;
+    justify-content: center;
+    position: sticky;
+    top: 0px;
+    background-color: #A48B76;}
+
+nav>a{margin-right: 50px;
+    font-family: "Engine";
+    font-size: 36px;
+    color: #6c411e;
+    border: dotted 2px #50311800;
+    padding: 10px;}
+nav>a:hover{border: dotted 2px #503118;
+    border-radius: 30px;
+    padding: 10px;
+    background-color: #F3BC8E;}
+
+h2{font-family: "Engine";
+    font-weight: lighter;
+    font-size: 48px;
+    color: #503118;
+    background-color: #F3BC8E;
+    padding-left: 25px;}
+
+p{font-family: "OpenSans";
+    font-size: 20px;
+    color: #503118;}
+
+section{border-bottom: #503118 dashed 2px;}
+
+ul{font-family: "OpenSans";
+    font-size: 20px;
+    color: #503118;}
+
+#contacts{display: flex;
+    justify-content: center;}
+
+.contacts{font-family: "OpenSans";
+    font-size: 18px;
+    color: #503118;
+    margin: 15px 0px 15px 20px;}
+.contacts>a{text-decoration: none;
+    color: #503118;}
+.contacts>a:hover{background-color: #af9b8a;
+    text-decoration: underline dashed;
+    padding: 15px;
+    border-radius: 20px;}
